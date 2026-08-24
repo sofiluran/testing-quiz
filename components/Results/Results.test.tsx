@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Results from "@/components/Results";
+import Results from ".";
 
 describe("The Results component", () => {
   const mockScore = 10;
