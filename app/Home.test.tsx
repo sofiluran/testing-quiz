@@ -45,7 +45,7 @@ describe("Quiz integration", () => {
     fireEvent.change(input, { target: { value: "mock username" } });
     const startBtn = screen.getByRole("button", { name: /start/i });
     fireEvent.click(startBtn);
-    const progress = screen.getByText(/question 1\/5/i);
+    const progress = screen.getByText(/question 1\/9/i);
     expect(progress).toBeInTheDocument();
   });
   test("displays the next question after the user clicks an answer", () => {
@@ -56,7 +56,7 @@ describe("Quiz integration", () => {
     fireEvent.click(startBtn);
     const answerBtns = screen.getAllByTestId("answer-btn");
     fireEvent.click(answerBtns[0]);
-    const nextQuestionProgress = screen.getByText(/question 2\/5/i);
+    const nextQuestionProgress = screen.getByText(/question 2\/9/i);
     expect(nextQuestionProgress).toBeInTheDocument();
   });
   test("allows the user to finish the quiz and see the results", () => {
@@ -87,7 +87,7 @@ describe("Quiz integration", () => {
     const playAgainBtn = screen.getByRole("button", { name: /play again/i });
     expect(playAgainBtn).toBeInTheDocument();
     fireEvent.click(playAgainBtn);
-    const progress = screen.getByText(/question 1\/5/i);
+    const progress = screen.getByText(/question 1\/9/i);
     expect(progress).toBeInTheDocument();
   });
 });

@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "__tests__/Home.test.tsx"  ],
+, "app/Home.test.tsx"  ],
   "exclude": ["node_modules"]
 }
