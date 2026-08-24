@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Answers from "@/components/Answers";
+import Answers from ".";
 
 describe("The Answers component", () => {
   const mockAnswers = ["a", "b", "c"];
