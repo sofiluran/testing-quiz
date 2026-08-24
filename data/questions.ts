@@ -2,30 +2,48 @@ import type { Question } from "@/types/types";
 
 export const questions: Question[] = [
   {
-    question: "Which state is Jason Mraz originally from?",
-    answers: ["California", "Hawaii", "Virginia"],
+    question: "What is 'ONIX'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
     correctAnswer: 2,
   },
   {
-    question: "Apart from making music, what side business does Jason Mraz own?",
-    answers: ["A farm", "A restaurant", "A music school"],
+    question: "What is 'MASTODON'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
+    correctAnswer: 1,
+  },
+  {
+    question: "What is 'PORYGON'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
+    correctAnswer: 2,
+  },
+  {
+    question: "What is 'HEMNES'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
     correctAnswer: 0,
   },
   {
-    question: "What is the title of Jason Mraz’s 2002 debut studio album?",
-    answers: ["Know", "Mr. A-Z", "Waiting for My Rocket to Come"],
+    question: "What is 'GHOST'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
+    correctAnswer: 1,
+  },
+  {
+    question: "What is 'KLIPPAN'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
+    correctAnswer: 0,
+  },
+  {
+    question: "What is 'LINOONE'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
     correctAnswer: 2,
   },
-
   {
-    question: "Which song did Jason Mraz NOT win a Grammy for?",
-    answers: ["Make it Mine", "I'm Yours", "Lucky"],
+    question: "What is 'TOOL'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
     correctAnswer: 1,
   },
-
   {
-    question: "In which musical did Jason Mraz make his Broadway debut?",
-    answers: ["Book of Mormon", "Waitress", "Hamilton"],
-    correctAnswer: 1,
+    question: "What is 'MELLTORP'?",
+    answers: ["IKEA furniture", "Rock band", "Pokémon"],
+    correctAnswer: 0,
   },
 ];

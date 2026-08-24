@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Question from "@/components/Question";
+import Question from ".";
 
 describe("The Question component", () => {
   const mockQuestion = "mock question";
