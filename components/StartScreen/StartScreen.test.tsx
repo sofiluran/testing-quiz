@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import StartScreen from "@/components/StartScreen";
+import StartScreen from ".";
 
 describe("The Start Screen", () => {
   const mockUsername = "mock username";
