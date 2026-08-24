@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Progress from "@/components/Progress";
+import Progress from ".";
 
 describe("The Progress component", () => {
   const mockQuestionIndex = 5;
